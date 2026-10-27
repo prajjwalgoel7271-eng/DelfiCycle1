@@ -1,0 +1,286 @@
+{
+  "site": {
+    "name": "DelfiCycle Studio",
+    "tagline": "Waste less. Design more.",
+    "description": "A student-led circular design studio that transforms difficult waste into useful, beautiful products while making sustainability practical and rewarding."
+  },
+  "products": [
+    {
+      "id": "p-bangles",
+      "name": "Upcycled Plastic Bangles",
+      "category": "Fashion",
+      "price": 199,
+      "coins": 20,
+      "material": "PET bottles & colorful plastic",
+      "icon": "◎",
+      "image": "/Bangles.jpeg",
+      "fallbackImages": ["/Bangles.jpg", "/bangles.png", "/bangles.jpg", "/Bangles.png"],
+      "description": "Handcrafted decorative bangles crafted from clean PET bottle rings wrapped in vibrant upcycled patterns.",
+      "stock": 35,
+      "featured": true
+    },
+    {
+      "id": "p-earrings",
+      "name": "Eco Plastic Earrings",
+      "category": "Fashion",
+      "price": 149,
+      "coins": 15,
+      "material": "HDPE bottle caps",
+      "icon": "✦",
+      "image": "/earrings.jpeg",
+      "fallbackImages": ["/Earrings.jpeg", "/Earrings.jpg", "/earrings.png", "/earrings.jpg", "/Earrings.png", "/PlasticEarrings.png", "/PlasticEarrings.jpg"],
+      "description": "Lightweight marble-pattern geometric earrings pressed and cut from clean sorted plastic bottle caps.",
+      "stock": 28,
+      "featured": true
+    },
+    {
+      "id": "p-plastifish",
+      "name": "PlastiFish Marine Sculpture",
+      "category": "Art",
+      "price": 399,
+      "coins": 40,
+      "material": "Recycled PET & HDPE caps",
+      "icon": "𓆝",
+      "image": "/Plastifish.jpeg",
+      "fallbackImages": ["/plastifish.jpeg", "/Plastifish.jpg", "/plastifish.png", "/plastifish.jpg", "/Plastifish.png"],
+      "description": "A statement marine animal sculpture made of repurposed plastic bottles and caps to spotlight ocean conservation.",
+      "stock": 15,
+      "featured": true
+    },
+    {
+      "id": "p1",
+      "name": "Plastic Bloom Lamp",
+      "category": "Home",
+      "price": 799,
+      "coins": 80,
+      "material": "HDPE bottle caps",
+      "icon": "✦",
+      "description": "A modular desk lamp made from cleaned, sorted bottle caps. Designed to cast a soft patterned glow.",
+      "stock": 12,
+      "featured": true
+    },
+    {
+      "id": "p2",
+      "name": "ReBottle Desk Tray",
+      "category": "Desk",
+      "price": 349,
+      "coins": 35,
+      "material": "PET bottles",
+      "icon": "▱",
+      "description": "A stackable organizer cut from post-consumer bottles for stationery, cables and small essentials.",
+      "stock": 24,
+      "featured": true
+    },
+    {
+      "id": "p4",
+      "name": "CapTile Coasters",
+      "category": "Home",
+      "price": 299,
+      "coins": 30,
+      "material": "Mixed plastic caps",
+      "icon": "○",
+      "description": "Heat-resistant coaster set made from sorted plastic caps pressed into colourful composite tiles.",
+      "stock": 31,
+      "featured": false
+    },
+    {
+      "id": "p5",
+      "name": "BottleScale Planter",
+      "category": "Garden",
+      "price": 249,
+      "coins": 25,
+      "material": "PET bottles",
+      "icon": "⌁",
+      "description": "A self-watering mini planter created from bottles that would otherwise enter mixed waste.",
+      "stock": 40,
+      "featured": false
+    },
+    {
+      "id": "p6",
+      "name": "Plastic Pixel Pinboard",
+      "category": "Desk",
+      "price": 599,
+      "coins": 60,
+      "material": "Bottle labels + caps",
+      "icon": "▦",
+      "description": "A lightweight pinboard built from layered discarded labels and caps, designed for school desks and studios.",
+      "stock": 9,
+      "featured": false
+    },
+    {
+      "id": "p8",
+      "name": "DragonScale Key Tag",
+      "category": "School",
+      "price": 129,
+      "coins": 12,
+      "material": "HDPE offcuts",
+      "icon": "◈",
+      "description": "A compact school merch tag inspired by dragon-scale geometry, made from workshop plastic offcuts.",
+      "stock": 70,
+      "featured": false
+    }
+  ],
+  "tutorials": [
+    {
+      "id": "t-bangles",
+      "title": "DIY Plastic Bottle Bangles",
+      "level": "Beginner",
+      "minutes": 15,
+      "waste": "PET plastic bottles",
+      "coins": 35,
+      "image": "/Bangles.jpeg",
+      "fallbackImages": ["/bangles.jpeg", "/Bangles.jpg", "/bangles.jpg", "/Bangles.png", "/bangles.png"],
+      "video": "/Bangles.mp4",
+      "videoFallbacks": ["/bangles.mp4", "/bangles-tutorial.mp4"],
+      "steps": [
+        "Select a clean, rigid plastic bottle with smooth cylindrical sides.",
+        "Draw even guide rings (approx. 2-3 cm wide) and carefully cut along the lines.",
+        "Smooth the edges gently using sandpaper or a safe workshop edge bevel.",
+        "Decorate the bangle by wrapping upcycled yarn, fabric ribbons, or eco-friendly paint.",
+        "Seal ends with non-toxic craft glue and let set for durable daily wear."
+      ],
+      "tip": "Always wear safety goggles when cutting plastic and get adult supervision for blade tools."
+    },
+    {
+      "id": "t-earrings",
+      "title": "Upcycled Plastic Earrings",
+      "level": "Intermediate",
+      "minutes": 20,
+      "waste": "HDPE bottle caps",
+      "coins": 40,
+      "image": "/earrings.jpeg",
+      "fallbackImages": ["/Earrings.jpeg", "/earrings.jpg", "/Earrings.jpg", "/earrings.png", "/Earrings.png"],
+      "video": "/Earrings.mp4",
+      "videoFallbacks": ["/earrings.mp4", "/earrings-tutorial.mp4"],
+      "steps": [
+        "Collect and thoroughly wash colored plastic bottle caps (#2 HDPE).",
+        "Cut caps into small flakes and press into a flat sheet under safe supervision.",
+        "Trace geometric shapes (teardrops, hexagons, circles) onto the cooled plastic sheet.",
+        "Cut out the shapes, smooth edges with a nail buffer or fine sandpaper.",
+        "Punch a small hole at the top and attach hypoallergenic earring hooks and jump rings."
+      ],
+      "tip": "Mixing contrasting cap colors gives a unique marbled gemstone effect."
+    },
+    {
+      "id": "t-plastifish",
+      "title": "PlastiFish Ocean Mascot",
+      "level": "Beginner",
+      "minutes": 25,
+      "waste": "PET bottles & plastic caps",
+      "coins": 50,
+      "image": "/Plastifish.jpeg",
+      "fallbackImages": ["/plastifish.jpeg", "/Plastifish.jpg", "/plastifish.jpg", "/Plastifish.png", "/plastifish.png"],
+      "video": "/Plastifish.mp4",
+      "videoFallbacks": ["/plastifish.mp4"],
+      "steps": [
+        "Clean a plastic bottle to serve as the fish torso.",
+        "Cut fins and a tail from flexible plastic scrap sheets.",
+        "Slot or securely fasten fins into small side slits on the bottle.",
+        "Layer sorted plastic caps overlapping like scales across the fish body.",
+        "Add contrasting caps for eyes and mouth to complete your ocean advocate mascot."
+      ],
+      "tip": "Save bottle caps of different shades of blue and green to create an authentic underwater gradient."
+    },
+    {
+      "id": "t-basket",
+      "title": "Woven Plastic Storage Basket",
+      "level": "Intermediate",
+      "minutes": 30,
+      "waste": "Plastic bottle strips & packaging",
+      "coins": 55,
+      "image": "/Basket.jpeg",
+      "fallbackImages": ["/basket.jpeg", "/Basket.jpg", "/basket.jpg", "/Basket.png", "/basket.png"],
+      "video": "/Basket.mp4",
+      "videoFallbacks": ["/basket.mp4"],
+      "steps": [
+        "Cut discarded clean plastic bottles or sheets into uniform sturdy ribbons.",
+        "Interlock the base ribbons in a tight cross-weave pattern.",
+        "Bend side ribbons upward and weave continuous horizontal strips to build the basket walls.",
+        "Fold over top edges and reinforce with a rounded plastic rim strip.",
+        "Add handles and secure ends firmly with safe workshop fasteners."
+      ],
+      "tip": "Keep ribbon widths consistent for a symmetrical, durable basket."
+    }
+  ],
+  "challenges": [
+    {
+      "id": "c-plastifish",
+      "title": "PlastiFish Eco Challenge",
+      "reward": 150,
+      "badge": "Ocean Conservation Feature",
+      "deadline": "Weekly Eco Spotlight",
+      "prompt": "Build your own PlastiFish mascot! Repurpose discarded plastic bottles and colorful bottle caps into a creative marine creature that reminds our community to protect our oceans and waterways from plastic waste.",
+      "image": "/Plastifish.jpeg",
+      "fallbackImages": ["/plastifish.jpeg", "/Plastifish.jpg", "/plastifish.jpg", "/Plastifish.png", "/plastifish.png"]
+    },
+    {
+      "id": "c-wearable",
+      "title": "Wearable Waste: Bangles & Earrings",
+      "reward": 120,
+      "badge": "Circular Fashion",
+      "deadline": "Open",
+      "prompt": "Create an upcycled piece of wearable fashion (bangles, earrings, or pendants) using clean household plastic bottles and caps."
+    },
+    {
+      "id": "c-desk",
+      "title": "School Desk, Zero New Plastic",
+      "reward": 100,
+      "badge": "Campus Sustainability",
+      "deadline": "Open",
+      "prompt": "Design a functional school desk accessory using only waste materials collected on school grounds."
+    }
+  ],
+  "team": [
+    {
+      "name": "Sreeja",
+      "role": "Innovation & Pitch Lead",
+      "bio": "Shapes the circular economy narrative, project vision, and team storytelling."
+    },
+    {
+      "name": "Ananya",
+      "role": "Impact & Research Lead",
+      "bio": "Tracks waste diverted, lifecycle impact metrics, and sustainability studies."
+    },
+    {
+      "name": "Gaurav",
+      "role": "Product & Materials Innovator",
+      "bio": "Engineers safe upcycling techniques and physical prototypes from recycled plastics."
+    },
+    {
+      "name": "Sajal",
+      "role": "Marketplace & Operations Lead",
+      "bio": "Manages product cataloging, community distribution, and simulated store experience."
+    },
+    {
+      "name": "Prisha",
+      "role": "DIY Hub & Creative Lead",
+      "bio": "Designs student-friendly craft tutorials, step-by-step videos, and weekly eco challenges."
+    }
+  ],
+  "impact": {
+    "wasteDivertedKg": 184,
+    "productsMade": 427,
+    "studentsReached": 860,
+    "workshops": 19,
+    "coinsAwarded": 12840,
+    "communityPartners": 7
+  },
+  "faqs": [
+    {
+      "q": "Is DelfiCycle a real shop?",
+      "a": "This independent project is a functional prototype for the DelfiCycle concept. The marketplace is simulated locally; no real payments are processed."
+    },
+    {
+      "q": "What makes the products different?",
+      "a": "We focus on plastic waste streams that are often discarded, then design practical products around their material properties."
+    },
+    {
+      "q": "How do EcoCoins work?",
+      "a": "The demo wallet rewards learning and participation. Completing tutorials and challenge actions adds coins to your browser's local wallet."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "This version stores demo data in your browser's localStorage. It does not send form entries or purchases to a remote server."
+    }
+  ]
+}
